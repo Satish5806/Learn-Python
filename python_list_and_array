@@ -1,0 +1,24 @@
+numbers=[1,5,9,14]
+i=0
+persons=['Anika','Monika','Maria','Sofia']
+# for person in persons:
+#     print(person)
+# for i in range(len(persons)):
+#     print(persons[i])
+
+persons[1]='Lauria'
+
+persons.append('Ria')
+
+while i<len(persons):
+    print(persons[i])
+    i+=1
+
+
+# while i<len(numbers):
+#     print(numbers[i])
+#     i=i+1
+# for number in numbers:
+#     print(number)
+# for i in range(len(numbers)):
+#     print(numbers[i])

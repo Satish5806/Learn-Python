@@ -1,0 +1,14 @@
+# Ignore virtual environments anywhere in the project tree
+**/venv/
+**/.venv/
+**/env/
+
+# Ignore SQLite database files anywhere in the project tree
+**/*.db
+**/*.sqlite3
+
+# Ignore generic compilation and environment caches
+**/__pycache__/
+**/*.pyc
+.vscode/
+.idea/
